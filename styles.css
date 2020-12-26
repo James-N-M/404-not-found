@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+}
+
+header {
+    height: 64px;
+    margin-left: 24px;
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+header > h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    height: 64px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 17px;
+    margin-top: 96px;
+}
+
+
+#bad-news {
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    margin-left: 24px;
+    margin-right: 1px;
+    margin-bottom: 30px;
+}
+
+#bad-news-message {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: normal;
+    color: #4F4F4F;
+    font-size: 1.125rem;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    margin-left: 23px;
+    margin-right: 24px;
+    margin-bottom: 60px;
+}
+
+#homepage-btn {
+    background: #333333;
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    padding: 23px 42px;
+    margin-left: 24px;
+}
+
+#scarecrow-image {
+    width: 287px;
+    height: 238px;
+    margin-left: 44px;
+    margin-right: 44px;
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        margin-left: 77px;
+        margin-right: 119px;
+
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #scarecrow-image {
+        width: 539px;
+        height: 447px;
+    }
+
+    #bad-news {
+        width: 586px;
+        height: 190px;
+    }
+
+    #bad-news-message {
+        width: 381px;
+        height: 108px;
+    }
+}
+
